@@ -19,4 +19,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>tesst</display-name>
+    <servlet-name>tesst</servlet-name>
+    <servlet-class>tesst</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>tesst</servlet-name>
+    <url-pattern>/tesst</url-pattern>
+  </servlet-mapping>
 </web-app>
